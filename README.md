@@ -9,6 +9,23 @@ Antes de começar, certifique-se de ter o seguinte:
 - [Docker](https://www.docker.com/get-started) instalado e configurado.
 - [Azure CLI](https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli) instalado e autenticado na sua conta Azure.
 
+## 📟 EndPoints acessiveis
+
+### 1. Página Home
+```bash
+brinquedos-repositorio.eastus.azurecontainer.io:8080
+```
+
+### 2. Página Brinquedos
+```bash
+brinquedos-repositorio.eastus.azurecontainer.io:8080/listar
+```
+
+### 3. Página Fornecedores
+```bash
+brinquedos-repositorio.eastus.azurecontainer.io:8080/fornecedores
+```
+
 ## 🔧 Passos para configuração
 
 ### 1. Build da Imagem Docker
